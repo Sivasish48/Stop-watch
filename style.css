@@ -70,6 +70,6 @@ button{
 /* For mobile and tabs*/
 @media (max-width:480px){
   #time{
-    font-size: 32px;
+    font-size: 28px;
   }
 }
