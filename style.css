@@ -9,6 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #000000;
+    font-family: 'Montserrat', sans-serif;
 }
 .container{
     width: 60%;
@@ -23,7 +24,10 @@ body{
     text-align:center;
     margin: 0px auto;
     padding: 35px;
-    color: #fff;
+    color: #ffffff;
+}
+#time:hover{
+    color: aqua;
 }
 .buttons{
     text-align: center;
@@ -36,27 +40,36 @@ button{
     width: 50px;
     margin: 20px;
     border: none;
+    
 }
 #play{
     color: #ffffff;
     background-color: transparent;
-    size: 36px;
+    transition: .2s;
 }
 #play:hover{
     color: aqua;
-    transition: 0.5s;
+    transition: .3s;
 }
 #reset{
     color: #ffffff;
     background-color: transparent;
-    size: 36px;
+    transition: .2s;
 }
 #reset:hover{
-    color: aqua;
-    transition: 0.5s;
+        color: aqua;
+        transition: .3s;
 }
+
 #pause{
     color: #ffffff;
     background-color: transparent;
-    size: 36px;
+    transition: .2s;
+}
+
+/* For mobile and tabs*/
+@media (max-width:480px){
+  #time{
+    font-size: 32px;
+  }
 }
